@@ -24,4 +24,7 @@ public:
     void del() {
         printf("\nДеление: %d",firstNum/secondNum);
     }
+    void modN() {
+        printf("\nОстаток при делении числа %d на число %d равен: %d", firstNum, secondNum, firstNum%secondNum);
+    }
 };
