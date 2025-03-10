@@ -9,4 +9,5 @@ int main() {
     calc.minus();
     calc.umn();
     calc.del();
+    calc.modN();
 }
